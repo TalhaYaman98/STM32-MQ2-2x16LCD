@@ -77,25 +77,26 @@ Proje, yalnızca **CMSIS kütüphanesi** kullanılarak yazılmıştır (HAL küt
 
 ---
 
-## 📌 Gelecek Geliştirmeler
-
-- MQ2 sensöründen **PPM bazlı gaz yoğunluğu ölçümü**  
-- Röle yerine **buzzer / fan** kontrolü  
-- Daha detaylı LCD menüsü (ör. “Gaz Seviyesi: %”)  
-
----
-
 ## 📌 Donanım Bağlantıları
 
 Bileşen	      Pinler	Bağlantı Yeri
+
 MQ2 Sensörü  	VCC    	5V
+
               GND    	GND
+              
               AOUT	  STM32 PA0
+              
 LCD Ekran	    RS	    STM32 PA1
+
               E	      STM32 PA3
+              
               D4-D7	  STM32 PB4-PB7
+              
 Röle Modülü  	VCC	    5V
+
               GND	    GND
+              
               IN	    STM32 PD12
 
 ---
